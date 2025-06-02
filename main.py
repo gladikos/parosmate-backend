@@ -14,7 +14,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3001"],
+    allow_origins=["https://parosmate.netlify.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
