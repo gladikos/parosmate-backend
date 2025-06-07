@@ -1,7 +1,0 @@
-fastapi
-requests
-uvicorn
-openai
-python-dotenv
-python-multipart
-beautifulsoup4
